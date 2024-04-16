@@ -1,0 +1,18 @@
+name: pulumi-native-aws-tagging-issue
+runtime: yaml
+
+resources:
+  # Create an AWS resource (S3 Bucket)
+  bucket:
+    type: aws-native:s3:Bucket
+    # If properties are only defined here it works as expected
+#    properties:
+#      tags:
+#       - key: tag1
+#         value: a
+#       - key: tag2
+#         value: b
+#       - key: tag3
+#         value: c
+#       - key: tag4
+#         value: d

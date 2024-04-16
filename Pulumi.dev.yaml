@@ -1,0 +1,10 @@
+encryptionsalt: redacted
+config:
+  aws-native:region: us-east-2
+  # If tags are defined via default tags they generate a diff every time
+  aws-native:defaultTags:
+    tags:
+      Tag1: a
+      Tag2: b
+      Tag3: c
+      Tag4: d
